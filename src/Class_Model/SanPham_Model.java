@@ -91,6 +91,9 @@ public class SanPham_Model {
     }
 
    
-    
-    
+    @Override
+    public String toString() {
+        return this.LOAI;
+    }
+      
 }

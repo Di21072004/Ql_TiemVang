@@ -81,5 +81,9 @@ public class KhachHang_Model {
         this.ghiChu = ghiChu;
     }
     
+    @Override
+    public String toString() {
+        return this.tenKH;
+    }
     
 }
